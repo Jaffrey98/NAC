@@ -1,0 +1,2 @@
+localnet1 deny
+localnet2 deny
