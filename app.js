@@ -3,8 +3,7 @@ const app = express();
 const server = require('http').Server(app);
 const io = require('socket.io').listen(server);
 var fs = require('fs');
-
-// const db = require('./modules/db.js');
+var child_process = require('child_process');
 
 app.use(express.static(__dirname + '/client'));
 
@@ -61,6 +60,9 @@ io.on('connection', function(socket) {
 		      if (err) {
 		         return console.error(err);
 		      }
+			
+				// child_process.execSync("mkdir foo"); // server restarting command here
+
 		      
 		   });
    		});
