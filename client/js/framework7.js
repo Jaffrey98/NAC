@@ -18601,5 +18601,4 @@ return t7;
     
 
 })();
-
 //# sourceMappingURL=framework7.js.map
