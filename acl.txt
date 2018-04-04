@@ -1,2 +1,2 @@
-localnet1 deny
+localnet1 allow
 localnet2 deny
