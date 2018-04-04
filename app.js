@@ -3,7 +3,11 @@ const app = express();
 const server = require('http').Server(app);
 const io = require('socket.io').listen(server);
 var fs = require('fs');
-var child_process = require('child_process');
+
+var exec = require('child_process').exec;
+exec('net stop "Squid for Windows"', function(error, stdout, stderr) {
+    console.log(stdout);
+});
 
 app.use(express.static(__dirname + '/client'));
 
@@ -14,6 +18,9 @@ app.get('/', function(req, res) {
 
 io.on('connection', function(socket) {
    // console.log('A user connected');
+
+   	// child_process.execSync("e:");
+	// child_process.execSync("cd squid\bin");
 
    var content;
    var write = "";
@@ -61,8 +68,7 @@ io.on('connection', function(socket) {
 		         return console.error(err);
 		      }
 			
-				// child_process.execSync("mkdir foo"); // server restarting command here
-
+				child_process.execSync("dir"); // server restarting command here
 		      
 		   });
    		});
