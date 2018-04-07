@@ -6,7 +6,7 @@ var fs = require('fs');
 
 var exec = require('child_process').exec;
 
-app.use(express.static(__dirname + '/net-access-control/www'));
+app.use(express.static(__dirname + '/app/www'));
 
 app.get('/', function (req, res) {
 	res.sendFile('index.html');
