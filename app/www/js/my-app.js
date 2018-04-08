@@ -15,8 +15,6 @@ var mainView = myApp.addView('.view-main', {
     dynamicNavbar: true
 });
 
-var mainView = myApp.addView('.view-main');
-
 
 // Handle Cordova Device Ready Event
 $$(document).on('deviceready', function() {
