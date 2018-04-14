@@ -3,7 +3,7 @@
     <img src="https://i.imgur.com/H5OI6P6.png" height="150">
     <h2>Net Access Control</h2>
     <p align="center">
-        <p>Control network access to computers in your LAN using NAC</p>
+        <p>🌍🔐 Control network access to computers in your LAN using NAC</p>
     </p>
 </div>
 
