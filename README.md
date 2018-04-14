@@ -16,7 +16,7 @@
 
 ## Purpose
 This app was created to solve the problem of the faculty in our department to have to contact the server room every time they needed internet access in their lab. Also, this process requires the availability of a person in the server room to enable internet access.
-This app automates that process of having to contact the server room every time and doesn't depend on availabity of a person in the server room.
+This app automates that process of having to contact the server room every time and doesn't depend on availability of a person in the server room.
 
 ## Installation
  - `nodejs  >= v8.9.6` [get it here](https://nodejs.org/en/)
