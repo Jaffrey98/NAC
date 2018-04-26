@@ -29,7 +29,7 @@ This app automates that process of having to contact the server room every time 
   - Make sure squid server is running by checking it's status in `services.msc`
   - For squid server log go to _SQUID INSTALLED DIRECTORY_/Squid/var/log and open windows powershell 
   from that path and type `Get Content access.log -Wait`
-  - Add the machine(s)'s ip address(es) to the acl in the `SQUID INSTALLED DIRECTORY/Squid/etc/squid.conf` file and give it a name by adding this line `acl machine_name_here src your_machine_ip_here` (You can also add a subnet with the ip to add a range of ips).
+  - Add the machine(s)'s ip address(es) to the acl in the `SQUID INSTALLED DIRECTORY/Squid/etc/squid/squid.conf` file and give it a name by adding this line `acl machine_name_here src your_machine_ip_here` (You can also add a subnet with the ip to add a range of ips).
   - Add a default access control i.e. `allow/deny` to that machine by adding this line `http_access deny your_machine_name_here`.
    
   
