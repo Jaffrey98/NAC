@@ -24,7 +24,8 @@ This app automates that process of having to contact the server room every time 
  - Install squid server for Windows [get it here](http://squid.diladele.com)
  
  ## Usage 
-  - Run the express server by typing `node app.js` in the server
+  - Open an elevated terminal i.e. terminal with admin rights
+  - Run the express server by typing `node app.js` in the terminal
   - Open your browser and type `localhost:3000`
   - Make sure squid server is running by checking it's status in `services.msc`
   - For squid server log go to _SQUID INSTALLED DIRECTORY_/Squid/var/log/squid and open windows powershell 
