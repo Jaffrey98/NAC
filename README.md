@@ -7,7 +7,7 @@
     </p>
 </div>
 
-### Contents
+## Contents
 * [Purpose](#purpose)
 * [Installation](#installation)
 * [Usage](#usage)
