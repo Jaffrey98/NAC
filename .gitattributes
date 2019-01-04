@@ -1,1 +1,4 @@
 app/www/lib/* linguist-vendored
+app/platforms/* linguist-vendored
+app/plugins/* linguist-vendored
+app/hooks/* linguist-vendored
